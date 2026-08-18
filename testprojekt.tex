@@ -1,4 +1,14 @@
 \documentclass{article}
+
+%\begin{comment}
+%offene Fragen: 
+%- Pause hinter textbackslash
+%- ûnd
+%- Punkt unter Tilde
+%- unterkringelte Sachen
+%- mehrzeiliger Kommentar
+%\end{comment}
+
 \begin{document}
 
 
@@ -17,44 +27,62 @@ Latex ignoriert Whitespace, Leerzeichen, Absätze etc.\\
 Mehrere Leerzeilen: trotzdem nur ein Absatz.\\
 Einen einfachen Zeilenumbruch ohne neuen Absatz macht man 
 mit \textbackslash\textbackslash .\\
+
+Escapen \\
+
+
 Mit \textbackslash       escapen wir Zeichen wie \% . \\
 Einen Backslash machen wir mit \textbackslash textbackslash. \\ 
 Zeichen, die escaped werden müssen, sind: \% , \$ , \{\} , \textbackslash,
 \& , \# , \_ , \^ und \~ . \\
 
-\begin{comment}
-offene Fragen: 
-- Pause hinter textbackslash
-- ûnd
-- Punkt unter Tilde
-- unterkringelte Sachen
-\end{comment}
+Text in normalen "Anführungszeichen" sieht so aus. \\
+Typographisch richtig werden die `Anführungszeichen'' so.
+Mit jeweils zwei \`` Backticks und \' Apostrophen. \\
+
+Bindestrich kurz - \\
+Gedankenstrich lang mit zwei Bindestrichen -- \\
+noch länger mit drei Bindestrichen --- \\
+
+\begin{center}
+    \large
+    Dieser Text ist zentriert. \\
+    \tiny
+    mit begin und end center
+\end{center} 
 
 
-Lorem ipsum dolor                  sit amet, consetetur 
-sadipscing elitr, 
-sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-takimata sanctus est Lorem ipsum dolor sit amet. \\
-% \\ ist ein einfacher Zeilenumbruch
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam 
-erat, sed diam voluptua.
+\noindent mit noindent: Absatz nicht eingerückt. \\
+Verschiedene Schriftgrößen sind relativ, nicht absolut.
+Es gibt normalsize und kleinere und größere Schriften. \\
+Kleiner: tiny, scriptsize, footnotesize, small. \\
+Größer: large, Large, LARGE, huge, HUGE. \\
 
 
+\noindent Beispiele folgen: \\
+\begin{tiny} This text is tiny. \end{tiny} \\
+\begin{scriptsize} This text is scriptsize. \end{scriptsize} \\
+\begin{footnotesize} This text is footnotesize. \end{footnotesize} \\
+\begin{small} This text is small. \end{small} \\
+\begin{normalsize} This text is normalsize. \end{normalsize} \\
+\begin{large} This text is large. \end{large} \\
+\begin{Large} This text is Large. \end{Large} \\
+\begin{LARGE} This text is LARGE. \end{LARGE} \\
+\begin{huge} This text is huge. \end{huge} \\
+\begin{Huge} This text is Huge. \end{Huge} \\
 
+newpage macht eine neue Seite
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
-diam voluptua. At vero eos et accusam et justo duo dolores et ea 
-rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-ipsum dolor sit amet.  
+\newpage
 
-%ich bin ein
-%mehrzeiliger kommentar
+\noindent 
+\textit{textit steht für italic, 
+der Text ist dann das Argument in geschweiften Klammern}\\
+\textsl{textsl steht für slanted, also etwas schräg}\\
+\textbf{textbf steht für boldface}\\
+\texttt{texttt steht für typewriter, also wie Schreibmaschine}\\
+\textsc{textsc steht für smallcaps, also Kapitälchen}\\
+\emph{emph heißt: emphasised, also kursiv und betont im Gegensatz zu textit nur kursiv}\\
 
 
 \end{document}

@@ -1,24 +1,25 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\numberline {1}Grundlagen}{5}{}%
-\contentsline {section}{\numberline {1.1}Gliederung}{5}{}%
-\contentsline {section}{\numberline {1.2}Zeichen}{5}{}%
-\contentsline {subsection}{\numberline {1.2.1}Escapen}{5}{}%
-\contentsline {subsection}{\numberline {1.2.2}Anführungszeichen}{5}{}%
-\contentsline {subsection}{\numberline {1.2.3}Bindestriche}{5}{}%
-\contentsline {section}{\numberline {1.3}Formatierungen}{6}{}%
-\contentsline {subsection}{\numberline {1.3.1}Zentrierung und Absätze}{6}{}%
-\contentsline {subsection}{\numberline {1.3.2}Schriftgrößen}{6}{}%
-\contentsline {subsection}{\numberline {1.3.3}Schriftauszeichnung}{6}{}%
-\contentsline {section}{\numberline {1.4}Semantik}{7}{}%
-\contentsline {section}{\numberline {1.5}Komplexe Inhaltselemente}{8}{}%
-\contentsline {subsection}{\numberline {1.5.1}Punktliste}{8}{}%
-\contentsline {subsection}{\numberline {1.5.2}Geordnete Liste}{8}{}%
-\contentsline {subsection}{\numberline {1.5.3}Definitionsliste}{8}{}%
-\contentsline {subsection}{\numberline {1.5.4}Geschachtelte Liste}{8}{}%
-\contentsline {subsection}{\numberline {1.5.5}Tabellen}{8}{}%
-\contentsline {subsection}{\numberline {1.5.6}Abbildungen}{9}{}%
-\contentsline {subsubsection}{\nonumberline Bild}{9}{}%
-\contentsline {subsubsection}{\nonumberline Logo}{9}{}%
-\contentsline {subsection}{\numberline {1.5.7}Mathematische Formeln}{10}{}%
-\contentsline {subsection}{\numberline {1.5.8}URLs}{10}{}%
+\contentsline {chapter}{\numberline {1}Grundlagen}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Gliederung}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Zeichen}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Escapen}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Anführungszeichen}{1}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Bindestriche}{1}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Formatierungen}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Zentrierung und Absätze}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Schriftgrößen}{2}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Schriftauszeichnung}{2}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Semantik}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Komplexe Inhaltselemente}{4}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Punktliste}{4}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Geordnete Liste}{4}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Definitionsliste}{4}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Geschachtelte Liste}{4}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Tabellen}{4}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Abbildungen}{5}{subsection.1.5.6}%
+\contentsline {subsubsection}{\nonumberline Bild}{5}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Logo}{5}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {1.5.7}Mathematische Formeln}{6}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}URLs}{6}{subsection.1.5.8}%
+\contentsline {section}{\numberline {1.6}Querverweise}{7}{section.1.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

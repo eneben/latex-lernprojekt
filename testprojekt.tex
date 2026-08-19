@@ -32,6 +32,10 @@
 
 \include{Inhalt/Deckblatt}
 
+\pagenumbering{Roman}
+% Mögliche Argumente sind: alph für a, b, ..., Alph für A, B, ..., arabic für 1, 2, ...,
+% roman für i, ii, ..., Roman für I, II, ...
+
 %automatisch erstelltes Inhaltsverzeichnis. 
 % ab jetzt wird latex zweimal kompiliert, weil ja das inhaltsverzeichnis vorm inhalt kommt.
 \tableofcontents
@@ -40,7 +44,11 @@
 \listoffigures
 \listoftables
 
+\clearpage
+\pagenumbering{arabic}
+
 \include{Inhalt/Dokument}
 \include{Inhalt/Inhaltselemente}
+\include{Inhalt/Querverweise}
 
 \end{document}

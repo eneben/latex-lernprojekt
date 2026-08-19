@@ -1,0 +1,31 @@
+
+\section{Querverweise}
+
+\label{sec:Gliederung}
+
+Hier füge ich Querverweise ein. Dafür benutze ich ein Label und eine Referenz. 
+Das Label ist die Stelle, wo ich hinverweisen will. 
+\textbackslash label bezieht sich immer auf den zuletzt nummerierten Gliederungs-/Zählerstand.
+Die Referenz ist der Ausgangspunkt.
+Dem Label kann ich ein Parameter mitgeben für diese Stelle im Text. \\
+Es ist Konvention ein Präfix davor zu setzen. Das könnte man auch weglassen, ist aber
+praktisch, um zwischen Bildern, Tabellen und nummerierten Elementen unterscheiden zu 
+können, wenn man später darauf referenzieren will. \\
+\noindent Mögliche Präfixe: 
+\begin{description}
+    \item [sec] section
+    \item [cha] chapter 
+    \item [fig] Abbildungen
+    \item [tab] Tabellen
+\end{description}
+Mit \textbackslash ref verweise ich auf die Stelle, wobei die Nummerierung im pdf automatisch erfolgt. 
+Mit \textbackslash pageref verweise ich auf die Seitenzahl der angegebenen Label-Markierung. \\
+Mit \textbackslash nameref referenziere ich auf den Namen der Abbildung (o.ä.).
+Hier kommen jetzt die Verweise erstens auf dieses Kapitel \ref{sec:Gliederung} und zweitens auf 
+die Abbildung \nameref{fig:Raspie} vom Rasperry Pie \ref{fig:Raspie} auf Seite \pageref{sec:Gliederung}. \\
+Einfacher kann ich mir das machen, indem ich einen neuen Befehl definiere. So verlinke ich jetzt
+mal auf die \Tabelle{Super-Tabelle}. Wenn ich das ganze auf einen Befehl auslagere, bleibt der Text 
+hier etwas übersichtlicher. \\
+Ebenfalls ist es möglich das ganze in eine Fußnote auszulagern. Das versuchen wir jetzt noch
+mal mit einem Verweis auf die verschiedenen Schriftauszeichnungen\footnote{Siehe \Kapitel{Schriftauszeichnung}.}. Hierfür benutzen wir \textbackslash footnote.
+

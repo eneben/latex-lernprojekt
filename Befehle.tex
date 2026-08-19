@@ -12,3 +12,8 @@
 \newcommand{\Begriff}[1]{\textit{#1}}
 
 % bei code zB nützlich für klassennamen oä, damit das einheitlich formatiert wird.
+
+% Hier Befehl für Querverweis. 1 ist das Argument, also das Label, wo hin referenziert
+% werden soll. mit #1 wird hier das Argument eingefügt.
+\newcommand{\Tabelle}[1]{Tabelle \ref{tab:#1}: \nameref{tab:#1} auf Seite \pageref{tab:#1}}
+\newcommand{\Kapitel}[1]{Kapitel \ref{sec:#1}: \nameref{sec:#1} auf Seite \pageref{sec:#1}}

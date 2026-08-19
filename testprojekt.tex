@@ -1,88 +1,36 @@
-\documentclass{article}
+% folgende Zeilen erlauben deutsche Zeichen, deutsche Silbentrennung etc.
 
-%\begin{comment}
-%offene Fragen: 
-%- Pause hinter textbackslash
-%- ûnd
-%- Punkt unter Tilde
-%- unterkringelte Sachen
-%- mehrzeiliger Kommentar
-%\end{comment}
+\documentclass[a4paper]{scrreprt}
+%folgende drei verschoben nach Packages
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage[ngerman]{babel}
+
+
+% neue Dokumentstruktur mit input und include. Diese Datei ist dann wie die app.js 
+% quasi die Hauptdatei, in der alle Fäden zusammenlaufen und hin- und hersortiert
+% werden können.
+
+% Der Befehl \input "inkludiert" eine andere *.tex-Datei an genau dieser Stelle,
+% als würde man deren Inhalt per Copy-and-Paste hier einfügen. Wir können in
+% dieser Datei alle bekannten LaTeX-Befehle nutzen. In diesem Fall wurden alle
+% Packages in die Datei "Packages.tex" ausgelagert. Die Dateiendung ".tex" muss
+% nicht mit angegeben werden.
+\input{Packages}
+
+% In "Meta.tex" werden einige Informationen zum Dokument definiert.
+\input{Meta}
+
+
 
 \begin{document}
 
+% Der Befehl \include macht fast das gleiche wie \input 
+% Er fügt zusätzlich jedoch einen Seitenumbruch ein und sollte eher für die
+% logische Gliederung des Dokuments verwendet werden und \input für technische
+% Anweisungen.
 
-
-\textbf{Hello world}
-
-% ich bin ein kommentar
-
-% latex ignoriert whitespace, leerzeichen, absätze etc.
-% ein neuer absatz entsteht durch eine leerzeile (mehrere absätze)
-% mehrere leerzeilen: trotzdem nur ein absatz
-% ein einfacher zeilenumbruch ohne neuen absatz macht man mit \\
-
-Mit \% schreiben wir einen Kommentar. \\
-Latex ignoriert Whitespace, Leerzeichen, Absätze etc.\\
-Mehrere Leerzeilen: trotzdem nur ein Absatz.\\
-Einen einfachen Zeilenumbruch ohne neuen Absatz macht man 
-mit \textbackslash\textbackslash .\\
-
-Escapen \\
-
-
-Mit \textbackslash       escapen wir Zeichen wie \% . \\
-Einen Backslash machen wir mit \textbackslash textbackslash. \\ 
-Zeichen, die escaped werden müssen, sind: \% , \$ , \{\} , \textbackslash,
-\& , \# , \_ , \^ und \~ . \\
-
-Text in normalen "Anführungszeichen" sieht so aus. \\
-Typographisch richtig werden die `Anführungszeichen'' so.
-Mit jeweils zwei \`` Backticks und \' Apostrophen. \\
-
-Bindestrich kurz - \\
-Gedankenstrich lang mit zwei Bindestrichen -- \\
-noch länger mit drei Bindestrichen --- \\
-
-\begin{center}
-    \large
-    Dieser Text ist zentriert. \\
-    \tiny
-    mit begin und end center
-\end{center} 
-
-
-\noindent mit noindent: Absatz nicht eingerückt. \\
-Verschiedene Schriftgrößen sind relativ, nicht absolut.
-Es gibt normalsize und kleinere und größere Schriften. \\
-Kleiner: tiny, scriptsize, footnotesize, small. \\
-Größer: large, Large, LARGE, huge, HUGE. \\
-
-
-\noindent Beispiele folgen: \\
-\begin{tiny} This text is tiny. \end{tiny} \\
-\begin{scriptsize} This text is scriptsize. \end{scriptsize} \\
-\begin{footnotesize} This text is footnotesize. \end{footnotesize} \\
-\begin{small} This text is small. \end{small} \\
-\begin{normalsize} This text is normalsize. \end{normalsize} \\
-\begin{large} This text is large. \end{large} \\
-\begin{Large} This text is Large. \end{Large} \\
-\begin{LARGE} This text is LARGE. \end{LARGE} \\
-\begin{huge} This text is huge. \end{huge} \\
-\begin{Huge} This text is Huge. \end{Huge} \\
-
-newpage macht eine neue Seite
-
-\newpage
-
-\noindent 
-\textit{textit steht für italic, 
-der Text ist dann das Argument in geschweiften Klammern}\\
-\textsl{textsl steht für slanted, also etwas schräg}\\
-\textbf{textbf steht für boldface}\\
-\texttt{texttt steht für typewriter, also wie Schreibmaschine}\\
-\textsc{textsc steht für smallcaps, also Kapitälchen}\\
-\emph{emph heißt: emphasised, also kursiv und betont im Gegensatz zu textit nur kursiv}\\
-
+\include{Inhalt/Deckblatt}
+\include{Inhalt/Dokument}
 
 \end{document}

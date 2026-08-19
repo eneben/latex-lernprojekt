@@ -1,6 +1,5 @@
 
 
-\textbf{Hello world}
 
 % ich bin ein kommentar
 
@@ -9,19 +8,31 @@
 % mehrere leerzeilen: trotzdem nur ein absatz
 % ein einfacher zeilenumbruch ohne neuen absatz macht man mit \\
 
+\chapter{Grundlagen}
+
 Mit \% schreiben wir einen Kommentar. \\
 Latex ignoriert Whitespace, Leerzeichen, Absätze etc.\\
 Mehrere Leerzeilen: trotzdem nur ein Absatz.\\
 Einen einfachen Zeilenumbruch ohne neuen Absatz macht man 
 mit \textbackslash\textbackslash .\\
 
-Escapen \\
+\section{Gliederung}
+Wir gliedern Text mit chapter, section, subsection, subsubsection und paragraph.
+Normalerweise sollte man nur bis subsection benutzen, sonst das Dokument irgendwie 
+weiter aufteilen. Die letzten beiden eher nicht benutzen. \\ Wenn man im Inhaltsverzeichnis
+einen anderen Namen will als in der Kapitelüberschrift, wird der Name fürs
+Inhaltsverzeichnis in eckigen Klammern vor die geschweiften Klammern gesetzt, also so: \\
+\textbackslash section [Name fürs Inhaltsverzeichnis] \{Name für die Kapitelüberschrift\}
 
+\section{Zeichen}
 
+\subsection{Escapen}
 Mit \textbackslash       escapen wir Zeichen wie \% . \\
 Einen Backslash machen wir mit \textbackslash textbackslash. \\ 
 Zeichen, die escaped werden müssen, sind: \% , \$ , \{\} , \textbackslash,
 \& , \# , \_ , \^ und \~ . \\
+
+\subsection{Anführungszeichen}
 
 %Text in normalen "Anführungszeichen" sieht so aus. \\
 %Typographisch richtig werden die ``Anführungszeichen'' so.
@@ -31,11 +42,17 @@ jeweils Anführungszeichen und Backtick vorne bzw. Anführungszeichen
 und Apostroph hinten. \\
 
 
+\subsection{Bindestriche}
 
 
 Bindestrich kurz - \\
 Gedankenstrich lang mit zwei Bindestrichen -- \\
 noch länger mit drei Bindestrichen --- \\
+
+\section{Formatierungen}
+
+\subsection{Zentrierung und Absätze}
+
 
 \begin{center}
     \large
@@ -46,6 +63,14 @@ noch länger mit drei Bindestrichen --- \\
 
 
 \noindent mit noindent: Absatz nicht eingerückt. \\
+
+\textbackslash newpage macht eine neue Seite
+
+%\newpage
+
+\subsection{Schriftgrößen}
+
+
 Verschiedene Schriftgrößen sind relativ, nicht absolut.
 Es gibt normalsize und kleinere und größere Schriften. \\
 Kleiner: tiny, scriptsize, footnotesize, small. \\
@@ -64,9 +89,10 @@ Größer: large, Large, LARGE, huge, HUGE. \\
 \begin{huge} This text is huge. \end{huge} \\
 \begin{Huge} This text is Huge. \end{Huge} \\
 
-newpage macht eine neue Seite
 
-\newpage
+
+\subsection{Schriftauszeichnung}
+
 
 \noindent 
 \textit{textit steht für italic, 

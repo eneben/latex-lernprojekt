@@ -55,6 +55,11 @@ INPUT ./Meta.tex
 INPUT ./Meta.tex
 INPUT ./Meta.tex
 INPUT Meta.tex
+INPUT ./Befehle.tex
+INPUT ./Befehle.tex
+INPUT ./Befehle.tex
+INPUT ./Befehle.tex
+INPUT Befehle.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./testprojekt.aux
@@ -98,6 +103,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 OUTPUT testprojekt.toc
+INPUT ./testprojekt.lof
+INPUT ./testprojekt.lof
+INPUT testprojekt.lof
+OUTPUT testprojekt.lof
+INPUT ./testprojekt.lot
+INPUT ./testprojekt.lot
+INPUT testprojekt.lot
+OUTPUT testprojekt.lot
 INPUT ./Inhalt/Dokument.tex
 INPUT ./Inhalt/Dokument.tex
 OUTPUT Inhalt/Dokument.aux

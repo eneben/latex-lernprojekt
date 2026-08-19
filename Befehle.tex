@@ -1,0 +1,14 @@
+% Man kann relativ einfach eigene Befehle in LaTeX definieren, die dann z.B. als
+% simple Abkürzungen...
+\newcommand{\LG}{LaTeX-Grundlagen }
+
+% ...oder zur semantischen Auszeichnung des Textes dienen. Dadurch kann man dann
+% später durch eine Änderung an dieser einen Stelle alle "Rollen" anstatt fett
+% kursiv darstellen.
+% in eckigen Klammern: wie viele Parameter?
+% dahinter in geschweiften Klammern: was soll ausgegeben werden?
+\newcommand{\Name}[1]{\textbf{#1}}
+
+\newcommand{\Begriff}[1]{\textit{#1}}
+
+% bei code zB nützlich für klassennamen oä, damit das einheitlich formatiert wird.

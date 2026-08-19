@@ -70,10 +70,35 @@ Tabellen hinsollen mit "`htb"': here, top, bottom (der Seite).
 
 \subsection{Abbildungen}
 
+\subsubsection{Bild}
 
 
 
+\begin{figure}[h]
+\caption{Rasperry Pie}
+% Gewisse einfache Manipulationen an Bildern können direkt angegeben werden,
+% hier z.B. eine Verkleinerung.
+\includegraphics[scale=0.3]{Bilder/rasperry_pie.jpg}
+\end{figure}
 
+\subsubsection{Logo}
+
+
+% Vektorgrafiken (z.B. PDF) sollten aufgrund der besseren Skalierbarkeit immer
+% bevorzugt werden. Hier zum Vergleich eine Rastergrafik und eine Vektorgrafik.
+
+Rastergrafiken sind pixelig bei Vergrößerung. Beispiele sind jpg, png, gif.\\
+\begin{figure}[h]
+\caption{LaTeX Logo (Rastergrafik, png)}
+\includegraphics[scale=0.3]{Bilder/LaTeX_png_logo.png}
+\end{figure}
+
+\noindent Vektorgrafiken sind ohne Qualitätsverlust skalierbar. Beispiele sind svg, eps.
+Am besten vorher svg in pdf umwandeln und dann einfügen.\\
+\begin{figure}[h]
+\caption{LaTeX Logo (Vektorgrafik, in pdf umgewandeltes svg)}
+\includegraphics[scale=0.3]{Bilder/LaTeX_pdf_logo.pdf}
+\end{figure}
 
 
 
@@ -81,4 +106,33 @@ Tabellen hinsollen mit "`htb"': here, top, bottom (der Seite).
 
 
 \subsection{Mathematische Formeln}
+
+
+Eine Formel mitten im Fließtext wird durch vorher und hinterher \$ Zeichen $y=mx+b$ abgetrennt.
+
+Lange Formeln werden geklammert: \\
+\textbackslash ( Formel \textbackslash )  \\
+\( \int\limits_a^b {\frac{d}{dx}F(x)dx} = F(b)-F(a) \)
+
+Und viele Formeln mit Nummerierung erzeugt man mit equation (siehe Liste oben):
+\begin{equation}
+e=mc^2
+\end{equation}
+
+\begin{equation}
+u(x,t)= 8 \frac{k_{1}^{2}e^{\alpha_{1}} + k_{2}^{2}e^{\alpha_{2}} + (k_{1}-k_{2})^{2}e^{(\alpha_{1}+ \alpha_{2})} \left[2 + \frac{1}{(k_{1} + k_{2})^{2}} ( k_{1}^{2}e^{\alpha_{1}} + k_{2}^{2}e^{\alpha_{2}}) \right]}{\left[1+e^{\alpha_{1}} + e^{\alpha_{2}} + \left(\frac{k_{1} - k_{2}}{k_{1}+k_{2}} \right)^{2} e^{\alpha_{1}+ \alpha_{2}} \right]^{2}}
+\end{equation}
+
+Wie genau mathematische/physikalische Formeln geschrieben werden, ggf. dann nachlesen.
+
 \subsection{URLs}
+
+Dieses Lernmaterial ist entnommen worden von
+\url{https://it-berufe-podcast.de/einfuehrung-in-latex-00-einleitung/}
+
+Die URL so zu schreiben sorgt zB dafür, dass sie korrekt umgebrochen wird. 
+% Man kann sie auch zB klickbar machen (mit package hyperref).
+% Auskommentiert, weil: Ist auch so schon klickbar ?!
+
+
+

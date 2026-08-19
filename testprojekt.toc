@@ -17,6 +17,8 @@
 \contentsline {subsection}{\numberline {1.5.4}Geschachtelte Liste}{8}{}%
 \contentsline {subsection}{\numberline {1.5.5}Tabellen}{8}{}%
 \contentsline {subsection}{\numberline {1.5.6}Abbildungen}{9}{}%
-\contentsline {subsection}{\numberline {1.5.7}Mathematische Formeln}{9}{}%
-\contentsline {subsection}{\numberline {1.5.8}URLs}{9}{}%
+\contentsline {subsubsection}{\nonumberline Bild}{9}{}%
+\contentsline {subsubsection}{\nonumberline Logo}{9}{}%
+\contentsline {subsection}{\numberline {1.5.7}Mathematische Formeln}{10}{}%
+\contentsline {subsection}{\numberline {1.5.8}URLs}{10}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

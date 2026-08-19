@@ -173,6 +173,9 @@ INPUT Inhalt/Inhaltselemente.aux
 INPUT ./Inhalt/Querverweise.aux
 INPUT ./Inhalt/Querverweise.aux
 INPUT Inhalt/Querverweise.aux
+INPUT ./Inhalt/Kompilierungsprobleme.aux
+INPUT ./Inhalt/Kompilierungsprobleme.aux
+INPUT Inhalt/Kompilierungsprobleme.aux
 OUTPUT testprojekt.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -295,6 +298,12 @@ INPUT Inhalt/Querverweise.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT ./Inhalt/Kompilierungsprobleme.tex
+INPUT ./Inhalt/Kompilierungsprobleme.tex
+OUTPUT Inhalt/Kompilierungsprobleme.aux
+INPUT ./Inhalt/Kompilierungsprobleme.tex
+INPUT ./Inhalt/Kompilierungsprobleme.tex
+INPUT Inhalt/Kompilierungsprobleme.tex
 INPUT testprojekt.aux
 INPUT ./Inhalt/Deckblatt.aux
 INPUT ./Inhalt/Deckblatt.aux
@@ -308,6 +317,9 @@ INPUT Inhalt/Inhaltselemente.aux
 INPUT ./Inhalt/Querverweise.aux
 INPUT ./Inhalt/Querverweise.aux
 INPUT Inhalt/Querverweise.aux
+INPUT ./Inhalt/Kompilierungsprobleme.aux
+INPUT ./Inhalt/Kompilierungsprobleme.aux
+INPUT Inhalt/Kompilierungsprobleme.aux
 INPUT ./testprojekt.out
 INPUT ./testprojekt.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

@@ -23,6 +23,8 @@
 
 \input{Befehle}
 
+
+
 \begin{document}
 
 % Der Befehl \include macht fast das gleiche wie \input 
@@ -52,7 +54,13 @@
 \include{Inhalt/Querverweise}
 \include{Inhalt/Kompilierungsprobleme}
 
-\bibliographystyle{natdin}
-\bibliography{Bibliographie}
+% Literaturverzeichnis
+% die beiden hier folgenden Zeilen wären BibTeX mit natbib. 
+% \bibliographystyle{natdin}
+% \bibliography{Bibliographie}
+% Das hat nicht funktioniert. Lieber biblatex mit biber.
+% Anleitung bspw. bei learnlatex lesson 12
+
+\printbibliography
 
 \end{document}
